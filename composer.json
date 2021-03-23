@@ -1,0 +1,25 @@
+{
+	"name": "manojkcoder/reloadly-sdk-php",
+	"type": "library",
+	"description": "",
+	"keywords": [
+		"PHP Sdk"
+	],
+	"version": "1.0.0",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Developer",
+			"email": "manojkcoder@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Reloadly\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^7.0",
+		"guzzlehttp/guzzle": "^7.2"
+	}
+}
